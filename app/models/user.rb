@@ -6,4 +6,5 @@ class User < ApplicationRecord
 
   has_many :competitors
   has_many :competitions, through: :competitors
+  has_many :weight_records
 end
