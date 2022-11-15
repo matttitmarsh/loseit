@@ -37,6 +37,10 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'haml-rails'
+
+gem "chartkick"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -82,4 +86,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
   gem "factory_bot_rails"
+  gem 'shoulda-matchers', '~> 5.0'
 end
